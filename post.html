@@ -42,7 +42,7 @@
                         <li class="nav__item"><a class="nav__link" href="#">Выйти</a></li>
                     </ul>
                 </nav>
-                <form class="search" action="/" method="POST">
+                <form class="search" action="search.html" method="GET">
                     <input type="text" placeholder="Поиск по блогу" class="search__input">
                 </form>
             </div>
@@ -83,7 +83,7 @@
                 </div>
             </div>
             <div class="sidebar__footer">
-                <a href="#" class="btn btn--red">Мои работы</a>
+                <a href="works.html" class="btn btn--red">Мои работы</a>
                 <button class="btn btn--blue" type="button">Написать мне</button>
             </div>
         </asid>        <!-- Main -->
@@ -163,10 +163,58 @@
             <button type="submit" class="btn btn--blue btn--rounded btn--sm">Отправить</button>
         </form>
 
-        <div class="comments">
-            
-
-        </div>
+        <ul class="comments">
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="https://placehold.it/30" alt="">
+                    <div class="comments__author">
+                        <div class="comments__name">Дмитрий Валак</div>
+                        <time datetime="2020-12-21 19:21" class="comments__pubdate">1 неделю назад</time>
+                    </div>
+                </div>
+                <div class="comments__text">
+                    Et vestibulum, posuere tortor lacinia sit. 
+                    Sagittis porttitor orci auctor in at tincidunt arcu egestas. 
+                    Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. 
+                    Egestas ornare vel volutpat.
+                </div>
+                <buttom class="comments__reply" type="button">ответить</buttom>
+                <ul class="comments">
+                    <li class="comments__item">
+                        <div class="comments__header">
+                            <img class="comments__avatar" src="https://placehold.it/30" alt="">
+                            <div class="comments__author">
+                                <div class="comments__name">Дмитрий Валак</div>
+                                <time datetime="2020-12-21 19:21" class="comments__pubdate">1 неделю назад</time>
+                            </div>
+                        </div>
+                        <div class="comments__text">
+                            Et vestibulum, posuere tortor lacinia sit. 
+                            Sagittis porttitor orci auctor in at tincidunt arcu egestas. 
+                            Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. 
+                            Egestas ornare vel volutpat.
+                        </div>
+                        <buttom class="comments__reply" type="button">ответить</buttom>
+                    </li>
+                </ul>
+            </li>
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="https://placehold.it/30" alt="">
+                    <div class="comments__author">
+                        <div class="comments__name">Дмитрий Валак</div>
+                        <time datetime="2020-12-21 19:21" class="comments__pubdate">1 неделю назад</time>
+                    </div>
+                </div>
+                <div class="comments__text">
+                    Et vestibulum, posuere tortor lacinia sit. 
+                    Sagittis porttitor orci auctor in at tincidunt arcu egestas. 
+                    Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. 
+                    Egestas ornare vel volutpat.
+                </div>
+                <buttom class="comments__reply" type="button">ответить</buttom>
+            </li>
+        </ul>
     </div>
 </article>
 
